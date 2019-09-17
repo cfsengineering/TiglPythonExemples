@@ -1,0 +1,3091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpacs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://cpacs.googlecode.com/files/CPACS_21_Schema.xsd">
+  <header>
+    <name>Cpacs2Test</name>
+    <description>Simple Wing for unit testing</description>
+    <creator>Martin Siggel</creator>
+    <timestamp>2012-10-09T15:12:47</timestamp>
+    <version>0.2</version>
+    <cpacsVersion>3.0</cpacsVersion>
+    <updates>
+      <update>
+        <modification>Converted to cpacs 3.0 using cpacs2to3 - does not include structure update</modification>
+        <creator>cpacs2to3</creator>
+        <timestamp>2018-01-15T09:22:57</timestamp>
+        <version>0.2</version>
+        <cpacsVersion>3.0</cpacsVersion>
+      </update>
+    </updates>
+  </header>
+  <vehicles>
+    <aircraft>
+      <model uID="Cpacs2Test">
+        <name>Cpacs2Test</name>
+        <reference>
+          <area>1</area>
+          <length>1</length>
+          <point>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </point>
+        </reference>
+        <fuselages>
+          <fuselage uID="SimpleFuselage">
+            <name>name</name>
+            <description>description</description>
+            <transformation uID="SimpleFuselage_transformation1">
+              <scaling uID="SimpleFuselage_transformation1_scaling1">
+                <x>1</x>
+                <y>0.5</y>
+                <z>0.5</z>
+              </scaling>
+              <rotation uID="SimpleFuselage_transformation1_rotation1">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation refType="absLocal" uID="SimpleFuselage_transformation1_translation1">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="D150_Fuselage_1Section1ID">
+                <name>D150_Fuselage_1Section1</name>
+                <transformation uID="D150_Fuselage_1Section1ID_transformation1">
+                  <scaling uID="D150_Fuselage_1Section1ID_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="D150_Fuselage_1Section1ID_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="D150_Fuselage_1Section1ID_transformation1_translation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="D150_Fuselage_1Section1IDElement1">
+                    <name>D150_Fuselage_1Section1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="D150_Fuselage_1Section1IDElement1_transformation1">
+                      <scaling uID="D150_Fuselage_1Section1IDElement1_transformation1_scaling1">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="D150_Fuselage_1Section1IDElement1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="D150_Fuselage_1Section1IDElement1_transformation1_translation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="D150_Fuselage_1Section2ID">
+                <name>D150_Fuselage_1Section2</name>
+                <transformation uID="D150_Fuselage_1Section2ID_transformation1">
+                  <scaling uID="D150_Fuselage_1Section2ID_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="D150_Fuselage_1Section2ID_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="D150_Fuselage_1Section2ID_transformation1_translation1">
+                    <x>0.5</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="D150_Fuselage_1Section2IDElement1">
+                    <name>D150_Fuselage_1Section2</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="D150_Fuselage_1Section2IDElement1_transformation1">
+                      <scaling uID="D150_Fuselage_1Section2IDElement1_transformation1_scaling1">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="D150_Fuselage_1Section2IDElement1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="D150_Fuselage_1Section2IDElement1_transformation1_translation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="D150_Fuselage_1Section3ID">
+                <name>D150_Fuselage_1Section3</name>
+                <transformation uID="D150_Fuselage_1Section3ID_transformation1">
+                  <scaling uID="D150_Fuselage_1Section3ID_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="D150_Fuselage_1Section3ID_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="D150_Fuselage_1Section3ID_transformation1_translation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="D150_Fuselage_1Section3IDElement1">
+                    <name>D150_Fuselage_1Section3</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="D150_Fuselage_1Section3IDElement1_transformation1">
+                      <scaling uID="D150_Fuselage_1Section3IDElement1_transformation1_scaling1">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="D150_Fuselage_1Section3IDElement1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="D150_Fuselage_1Section3IDElement1_transformation1_translation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="D150_Fuselage_1Positioning1ID">
+                <name>D150_Fuselage_1Positioning1</name>
+                <length>-0.5</length>
+                <sweepAngle>90</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <toSectionUID>D150_Fuselage_1Section1ID</toSectionUID>
+              </positioning>
+              <positioning uID="D150_Fuselage_1Positioning3ID">
+                <name>D150_Fuselage_1Positioning3</name>
+                <length>2</length>
+                <sweepAngle>90</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID>D150_Fuselage_1Section1ID</fromSectionUID>
+                <toSectionUID>D150_Fuselage_1Section3ID</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="segmentD150_Fuselage_1Segment2ID">
+                <name>D150_Fuselage_1Segment2</name>
+                <fromElementUID>D150_Fuselage_1Section1IDElement1</fromElementUID>
+                <toElementUID>D150_Fuselage_1Section2IDElement1</toElementUID>
+              </segment>
+              <segment uID="segmentD150_Fuselage_1Segment3ID">
+                <name>D150_Fuselage_1Segment3</name>
+                <fromElementUID>D150_Fuselage_1Section2IDElement1</fromElementUID>
+                <toElementUID>D150_Fuselage_1Section3IDElement1</toElementUID>
+              </segment>
+            </segments>
+          </fuselage>
+        </fuselages>
+        <wings>
+          <wing uID="Wing" symmetry="x-z-plane">
+            <name>Wing</name>
+            <parentUID>SimpleFuselage</parentUID>
+            <description>This wing has been generated to test CATIA2CPACS.</description>
+            <transformation uID="Wing_transformation1">
+              <scaling uID="Wing_transformation1_scaling1">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="Wing_transformation1_rotation1">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation refType="absGlobal" uID="Wing_transformation1_translation1">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="Cpacs2Test_Wing_Sec1">
+                <name>Cpacs2Test - Wing Section 1</name>
+                <description>Cpacs2Test - Wing Section 1</description>
+                <transformation uID="Cpacs2Test_Wing_Sec1_transformation1">
+                  <scaling uID="Cpacs2Test_Wing_Sec1_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="Cpacs2Test_Wing_Sec1_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec1_transformation1_translation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="Cpacs2Test_Wing_Sec1_El1">
+                    <name>Cpacs2Test - Wing Section 1 Main Element</name>
+                    <description>Cpacs2Test - Wing Section 1 Main Element</description>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="Cpacs2Test_Wing_Sec1_El1_transformation1">
+                      <scaling uID="Cpacs2Test_Wing_Sec1_El1_transformation1_scaling1">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="Cpacs2Test_Wing_Sec1_El1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec1_El1_transformation1_translation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="Cpacs2Test_Wing_Sec2">
+                <name>Cpacs2Test - Wing Section 2</name>
+                <description>Cpacs2Test - Wing Section 2</description>
+                <transformation uID="Cpacs2Test_Wing_Sec2_transformation1">
+                  <scaling uID="Cpacs2Test_Wing_Sec2_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="Cpacs2Test_Wing_Sec2_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec2_transformation1_translation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="Cpacs2Test_Wing_Sec2_El1">
+                    <name>Cpacs2Test - Wing Section 2 Main Element</name>
+                    <description>Cpacs2Test - Wing Section 2 Main Element</description>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="Cpacs2Test_Wing_Sec2_El1_transformation1">
+                      <scaling uID="Cpacs2Test_Wing_Sec2_El1_transformation1_scaling1">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="Cpacs2Test_Wing_Sec2_El1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec2_El1_transformation1_translation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="Cpacs2Test_Wing_Sec3">
+                <name>Cpacs2Test - Wing Section 3</name>
+                <description>Cpacs2Test - Wing Section 3</description>
+                <transformation uID="Cpacs2Test_Wing_Sec3_transformation1">
+                  <scaling uID="Cpacs2Test_Wing_Sec3_transformation1_scaling1">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="Cpacs2Test_Wing_Sec3_transformation1_rotation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec3_transformation1_translation1">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="Cpacs2Test_Wing_Sec3_El1">
+                    <name>Cpacs2Test - Wing Section 3 Main Element</name>
+                    <description>Cpacs2Test - Wing Section 3 Main Element</description>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="Cpacs2Test_Wing_Sec3_El1_transformation1">
+                      <scaling uID="Cpacs2Test_Wing_Sec3_El1_transformation1_scaling1">
+                        <x>0.5</x>
+                        <y>0.5</y>
+                        <z>0.5</z>
+                      </scaling>
+                      <rotation uID="Cpacs2Test_Wing_Sec3_El1_transformation1_rotation1">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation refType="absLocal" uID="Cpacs2Test_Wing_Sec3_El1_transformation1_translation1">
+                        <x>0.5</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="Wing_positioning1">
+                <name>Cpacs2Test - Wing Section 1 Positioning</name>
+                <description>Cpacs2Test - Wing Section 1 Positioning</description>
+                <length>0</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <toSectionUID>Cpacs2Test_Wing_Sec1</toSectionUID>
+              </positioning>
+              <positioning uID="Wing_positioning2">
+                <name>Cpacs2Test - Wing Section 2 Positioning</name>
+                <description>Cpacs2Test - Wing Section 2 Positioning</description>
+                <length>1</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID>Cpacs2Test_Wing_Sec1</fromSectionUID>
+                <toSectionUID>Cpacs2Test_Wing_Sec2</toSectionUID>
+              </positioning>
+              <positioning uID="Wing_positioning3">
+                <name>Cpacs2Test - Wing Section 3 Positioning</name>
+                <description>Cpacs2Test - Wing Section 3 Positioning</description>
+                <length>1</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID>Cpacs2Test_Wing_Sec2</fromSectionUID>
+                <toSectionUID>Cpacs2Test_Wing_Sec3</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="Cpacs2Test_Wing_Seg_1_2">
+                <name>Fuselage Segment from Cpacs2Test - Wing Section 1 Main Element to Cpacs2Test - Wing Section 2 Main Element</name>
+                <description>Fuselage Segment from Cpacs2Test - Wing Section 1 Main Element to Cpacs2Test - Wing Section 2 Main Element</description>
+                <fromElementUID>Cpacs2Test_Wing_Sec1_El1</fromElementUID>
+                <toElementUID>Cpacs2Test_Wing_Sec2_El1</toElementUID>
+              </segment>
+              <segment uID="Cpacs2Test_Wing_Seg_2_3">
+                <name>Fuselage Segment from Cpacs2Test - Wing Section 2 Main Element to Cpacs2Test - Wing Section 3 Main Element</name>
+                <description>Fuselage Segment from Cpacs2Test - Wing Section 2 Main Element to Cpacs2Test - Wing Section 3 Main Element</description>
+                <fromElementUID>Cpacs2Test_Wing_Sec2_El1</fromElementUID>
+                <toElementUID>Cpacs2Test_Wing_Sec3_El1</toElementUID>
+              </segment>
+            </segments>
+            <componentSegments>
+              <componentSegment uID="WING_CS1">
+                <name>Wing_CS1</name>
+                <fromElementUID>Cpacs2Test_Wing_Sec1_El1</fromElementUID>
+                <toElementUID>Cpacs2Test_Wing_Sec3_El1</toElementUID>
+                <structure>
+                  <upperShell uID="WING_CS1_upperShell1">
+                    <skin>
+                      <material>
+                        <materialUID>MySkinMat</materialUID>
+                        <thickness>0</thickness>
+                      </material>
+                    </skin>
+                    <cells>
+                      <cell uID="WING_CS1_CELL1">
+                        <skin>
+                          <material>
+                            <materialUID>MyCellMat</materialUID>
+                            <thickness>0</thickness>
+                          </material>
+                        </skin>
+                        <positioningLeadingEdge>
+                          <xsi1>0.8</xsi1>
+                          <xsi2>0.8</xsi2>
+                        </positioningLeadingEdge>
+                        <positioningTrailingEdge>
+                          <xsi1>1</xsi1>
+                          <xsi2>1</xsi2>
+                        </positioningTrailingEdge>
+                        <positioningInnerBorder>
+                          <eta1>0.0<eta>0</eta><referenceUID></referenceUID></eta1>
+                          <eta2>0.0<eta>0</eta><referenceUID></referenceUID></eta2>
+                        </positioningInnerBorder>
+                        <positioningOuterBorder>
+                          <eta1>0.5<eta>0</eta><referenceUID></referenceUID></eta1>
+                          <eta2>0.5<eta>0</eta><referenceUID></referenceUID></eta2>
+                        </positioningOuterBorder>
+                      </cell>
+                    </cells>
+                  </upperShell>
+                  <lowerShell uID="WING_CS1_lowerShell1">
+                    <skin>
+                      <material>
+                        <materialUID>MySkinMat</materialUID>
+                      </material>
+                    </skin>
+                  </lowerShell>
+                </structure>
+              </componentSegment>
+            </componentSegments>
+          </wing>
+          <wing uID="roundW" symmetry="x-z-plane">
+            <name>roundW</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="roundWTransformation">
+              <scaling uID="roundWTransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="roundWTransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="roundWTransformationTransl">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="roundWSec1">
+                <name>roundWSec1</name>
+                <transformation uID="roundWSec1Tr">
+                  <scaling uID="roundWSec1TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec1Elem1">
+                    <name>roundWSec1Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec1Elem1Tr">
+                      <scaling uID="roundWSec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec2">
+                <name>roundWSec2</name>
+                <transformation uID="roundWSec2Tr">
+                  <scaling uID="roundWSec2TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec2TrRot">
+                    <x>6.42857</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec2Elem1">
+                    <name>roundWSec2Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec2Elem1Tr">
+                      <scaling uID="roundWSec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec3">
+                <name>roundWSec3</name>
+                <transformation uID="roundWSec3Tr">
+                  <scaling uID="roundWSec3TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec3TrRot">
+                    <x>12.8571</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec3TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec3Elem1">
+                    <name>roundWSec3Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec3Elem1Tr">
+                      <scaling uID="roundWSec3Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec3Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec3Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec4">
+                <name>roundWSec4</name>
+                <transformation uID="roundWSec4Tr">
+                  <scaling uID="roundWSec4TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec4TrRot">
+                    <x>19.2857</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec4TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec4Elem1">
+                    <name>roundWSec4Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec4Elem1Tr">
+                      <scaling uID="roundWSec4Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec4Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec4Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec5">
+                <name>roundWSec5</name>
+                <transformation uID="roundWSec5Tr">
+                  <scaling uID="roundWSec5TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec5TrRot">
+                    <x>25.7143</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec5TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec5Elem1">
+                    <name>roundWSec5Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec5Elem1Tr">
+                      <scaling uID="roundWSec5Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec5Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec5Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec6">
+                <name>roundWSec6</name>
+                <transformation uID="roundWSec6Tr">
+                  <scaling uID="roundWSec6TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec6TrRot">
+                    <x>32.1429</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec6TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec6Elem1">
+                    <name>roundWSec6Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec6Elem1Tr">
+                      <scaling uID="roundWSec6Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec6Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec6Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec7">
+                <name>roundWSec7</name>
+                <transformation uID="roundWSec7Tr">
+                  <scaling uID="roundWSec7TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec7TrRot">
+                    <x>38.5714</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec7TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec7Elem1">
+                    <name>roundWSec7Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec7Elem1Tr">
+                      <scaling uID="roundWSec7Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec7Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec7Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec8">
+                <name>roundWSec8</name>
+                <transformation uID="roundWSec8Tr">
+                  <scaling uID="roundWSec8TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec8TrRot">
+                    <x>45</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec8TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec8Elem1">
+                    <name>roundWSec8Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec8Elem1Tr">
+                      <scaling uID="roundWSec8Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec8Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec8Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec9">
+                <name>roundWSec9</name>
+                <transformation uID="roundWSec9Tr">
+                  <scaling uID="roundWSec9TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec9TrRot">
+                    <x>51.4286</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec9TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec9Elem1">
+                    <name>roundWSec9Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec9Elem1Tr">
+                      <scaling uID="roundWSec9Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec9Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec9Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec10">
+                <name>roundWSec10</name>
+                <transformation uID="roundWSec10Tr">
+                  <scaling uID="roundWSec10TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec10TrRot">
+                    <x>57.8571</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec10TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec10Elem1">
+                    <name>roundWSec10Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec10Elem1Tr">
+                      <scaling uID="roundWSec10Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec10Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec10Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec11">
+                <name>roundWSec11</name>
+                <transformation uID="roundWSec11Tr">
+                  <scaling uID="roundWSec11TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec11TrRot">
+                    <x>64.2857</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec11TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec11Elem1">
+                    <name>roundWSec11Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec11Elem1Tr">
+                      <scaling uID="roundWSec11Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec11Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec11Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec12">
+                <name>roundWSec12</name>
+                <transformation uID="roundWSec12Tr">
+                  <scaling uID="roundWSec12TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec12TrRot">
+                    <x>70.7143</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec12TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec12Elem1">
+                    <name>roundWSec12Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec12Elem1Tr">
+                      <scaling uID="roundWSec12Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec12Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec12Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec13">
+                <name>roundWSec13</name>
+                <transformation uID="roundWSec13Tr">
+                  <scaling uID="roundWSec13TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec13TrRot">
+                    <x>77.1429</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec13TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec13Elem1">
+                    <name>roundWSec13Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec13Elem1Tr">
+                      <scaling uID="roundWSec13Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec13Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec13Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec14">
+                <name>roundWSec14</name>
+                <transformation uID="roundWSec14Tr">
+                  <scaling uID="roundWSec14TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec14TrRot">
+                    <x>83.5714</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec14TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec14Elem1">
+                    <name>roundWSec14Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec14Elem1Tr">
+                      <scaling uID="roundWSec14Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec14Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec14Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec15">
+                <name>roundWSec15</name>
+                <transformation uID="roundWSec15Tr">
+                  <scaling uID="roundWSec15TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec15TrRot">
+                    <x>90</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec15TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec15Elem1">
+                    <name>roundWSec15Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec15Elem1Tr">
+                      <scaling uID="roundWSec15Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec15Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec15Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec16">
+                <name>roundWSec16</name>
+                <transformation uID="roundWSec16Tr">
+                  <scaling uID="roundWSec16TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec16TrRot">
+                    <x>96.4286</x>
+                    <y>8.53774e-07</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec16TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec16Elem1">
+                    <name>roundWSec16Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec16Elem1Tr">
+                      <scaling uID="roundWSec16Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec16Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec16Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec17">
+                <name>roundWSec17</name>
+                <transformation uID="roundWSec17Tr">
+                  <scaling uID="roundWSec17TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec17TrRot">
+                    <x>102.857</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec17TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec17Elem1">
+                    <name>roundWSec17Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec17Elem1Tr">
+                      <scaling uID="roundWSec17Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec17Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec17Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec18">
+                <name>roundWSec18</name>
+                <transformation uID="roundWSec18Tr">
+                  <scaling uID="roundWSec18TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec18TrRot">
+                    <x>109.286</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec18TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec18Elem1">
+                    <name>roundWSec18Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec18Elem1Tr">
+                      <scaling uID="roundWSec18Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec18Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec18Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec19">
+                <name>roundWSec19</name>
+                <transformation uID="roundWSec19Tr">
+                  <scaling uID="roundWSec19TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec19TrRot">
+                    <x>115.714</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec19TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec19Elem1">
+                    <name>roundWSec19Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec19Elem1Tr">
+                      <scaling uID="roundWSec19Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec19Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec19Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec20">
+                <name>roundWSec20</name>
+                <transformation uID="roundWSec20Tr">
+                  <scaling uID="roundWSec20TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec20TrRot">
+                    <x>122.143</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec20TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec20Elem1">
+                    <name>roundWSec20Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec20Elem1Tr">
+                      <scaling uID="roundWSec20Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec20Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec20Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec21">
+                <name>roundWSec21</name>
+                <transformation uID="roundWSec21Tr">
+                  <scaling uID="roundWSec21TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec21TrRot">
+                    <x>128.571</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec21TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec21Elem1">
+                    <name>roundWSec21Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec21Elem1Tr">
+                      <scaling uID="roundWSec21Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec21Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec21Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec22">
+                <name>roundWSec22</name>
+                <transformation uID="roundWSec22Tr">
+                  <scaling uID="roundWSec22TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec22TrRot">
+                    <x>135</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec22TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec22Elem1">
+                    <name>roundWSec22Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec22Elem1Tr">
+                      <scaling uID="roundWSec22Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec22Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec22Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec23">
+                <name>roundWSec23</name>
+                <transformation uID="roundWSec23Tr">
+                  <scaling uID="roundWSec23TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec23TrRot">
+                    <x>141.429</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec23TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec23Elem1">
+                    <name>roundWSec23Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec23Elem1Tr">
+                      <scaling uID="roundWSec23Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec23Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec23Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec24">
+                <name>roundWSec24</name>
+                <transformation uID="roundWSec24Tr">
+                  <scaling uID="roundWSec24TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec24TrRot">
+                    <x>147.857</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec24TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec24Elem1">
+                    <name>roundWSec24Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec24Elem1Tr">
+                      <scaling uID="roundWSec24Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec24Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec24Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec25">
+                <name>roundWSec25</name>
+                <transformation uID="roundWSec25Tr">
+                  <scaling uID="roundWSec25TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec25TrRot">
+                    <x>154.286</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec25TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec25Elem1">
+                    <name>roundWSec25Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec25Elem1Tr">
+                      <scaling uID="roundWSec25Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec25Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec25Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec26">
+                <name>roundWSec26</name>
+                <transformation uID="roundWSec26Tr">
+                  <scaling uID="roundWSec26TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec26TrRot">
+                    <x>160.714</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec26TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec26Elem1">
+                    <name>roundWSec26Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec26Elem1Tr">
+                      <scaling uID="roundWSec26Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec26Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec26Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec27">
+                <name>roundWSec27</name>
+                <transformation uID="roundWSec27Tr">
+                  <scaling uID="roundWSec27TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec27TrRot">
+                    <x>167.143</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec27TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec27Elem1">
+                    <name>roundWSec27Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec27Elem1Tr">
+                      <scaling uID="roundWSec27Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec27Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec27Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec28">
+                <name>roundWSec28</name>
+                <transformation uID="roundWSec28Tr">
+                  <scaling uID="roundWSec28TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec28TrRot">
+                    <x>173.571</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec28TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec28Elem1">
+                    <name>roundWSec28Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec28Elem1Tr">
+                      <scaling uID="roundWSec28Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec28Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec28Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundWSec29">
+                <name>roundWSec29</name>
+                <transformation uID="roundWSec29Tr">
+                  <scaling uID="roundWSec29TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundWSec29TrRot">
+                    <x>180</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundWSec29TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundWSec29Elem1">
+                    <name>roundWSec29Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundWSec29Elem1Tr">
+                      <scaling uID="roundWSec29Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundWSec29Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundWSec29Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="roundWSec1GenPos">
+                <name></name>
+                <length>5.02431</length>
+                <sweepAngle>-5.6385</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>roundWSec1</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec2GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>3.21429</dihedralAngle>
+                <fromSectionUID>roundWSec1</fromSectionUID>
+                <toSectionUID>roundWSec2</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec3GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>9.64286</dihedralAngle>
+                <fromSectionUID>roundWSec2</fromSectionUID>
+                <toSectionUID>roundWSec3</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec4GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>16.0714</dihedralAngle>
+                <fromSectionUID>roundWSec3</fromSectionUID>
+                <toSectionUID>roundWSec4</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec5GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>22.5</dihedralAngle>
+                <fromSectionUID>roundWSec4</fromSectionUID>
+                <toSectionUID>roundWSec5</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec6GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>28.9286</dihedralAngle>
+                <fromSectionUID>roundWSec5</fromSectionUID>
+                <toSectionUID>roundWSec6</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec7GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>35.3571</dihedralAngle>
+                <fromSectionUID>roundWSec6</fromSectionUID>
+                <toSectionUID>roundWSec7</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec8GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>41.7857</dihedralAngle>
+                <fromSectionUID>roundWSec7</fromSectionUID>
+                <toSectionUID>roundWSec8</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec9GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>48.2143</dihedralAngle>
+                <fromSectionUID>roundWSec8</fromSectionUID>
+                <toSectionUID>roundWSec9</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec10GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>54.6429</dihedralAngle>
+                <fromSectionUID>roundWSec9</fromSectionUID>
+                <toSectionUID>roundWSec10</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec11GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>61.0714</dihedralAngle>
+                <fromSectionUID>roundWSec10</fromSectionUID>
+                <toSectionUID>roundWSec11</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec12GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>67.5</dihedralAngle>
+                <fromSectionUID>roundWSec11</fromSectionUID>
+                <toSectionUID>roundWSec12</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec13GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>73.9286</dihedralAngle>
+                <fromSectionUID>roundWSec12</fromSectionUID>
+                <toSectionUID>roundWSec13</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec14GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>80.3571</dihedralAngle>
+                <fromSectionUID>roundWSec13</fromSectionUID>
+                <toSectionUID>roundWSec14</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec15GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>86.7857</dihedralAngle>
+                <fromSectionUID>roundWSec14</fromSectionUID>
+                <toSectionUID>roundWSec15</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec16GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>93.2143</dihedralAngle>
+                <fromSectionUID>roundWSec15</fromSectionUID>
+                <toSectionUID>roundWSec16</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec17GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>99.6429</dihedralAngle>
+                <fromSectionUID>roundWSec16</fromSectionUID>
+                <toSectionUID>roundWSec17</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec18GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>106.071</dihedralAngle>
+                <fromSectionUID>roundWSec17</fromSectionUID>
+                <toSectionUID>roundWSec18</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec19GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>112.5</dihedralAngle>
+                <fromSectionUID>roundWSec18</fromSectionUID>
+                <toSectionUID>roundWSec19</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec20GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>118.929</dihedralAngle>
+                <fromSectionUID>roundWSec19</fromSectionUID>
+                <toSectionUID>roundWSec20</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec21GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>125.357</dihedralAngle>
+                <fromSectionUID>roundWSec20</fromSectionUID>
+                <toSectionUID>roundWSec21</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec22GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>131.786</dihedralAngle>
+                <fromSectionUID>roundWSec21</fromSectionUID>
+                <toSectionUID>roundWSec22</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec23GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>138.214</dihedralAngle>
+                <fromSectionUID>roundWSec22</fromSectionUID>
+                <toSectionUID>roundWSec23</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec24GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>144.643</dihedralAngle>
+                <fromSectionUID>roundWSec23</fromSectionUID>
+                <toSectionUID>roundWSec24</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec25GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>151.071</dihedralAngle>
+                <fromSectionUID>roundWSec24</fromSectionUID>
+                <toSectionUID>roundWSec25</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec26GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>157.5</dihedralAngle>
+                <fromSectionUID>roundWSec25</fromSectionUID>
+                <toSectionUID>roundWSec26</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec27GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>163.929</dihedralAngle>
+                <fromSectionUID>roundWSec26</fromSectionUID>
+                <toSectionUID>roundWSec27</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec28GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>170.357</dihedralAngle>
+                <fromSectionUID>roundWSec27</fromSectionUID>
+                <toSectionUID>roundWSec28</toSectionUID>
+              </positioning>
+              <positioning uID="roundWSec29GenPos">
+                <name></name>
+                <length>0.560704</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>176.786</dihedralAngle>
+                <fromSectionUID>roundWSec28</fromSectionUID>
+                <toSectionUID>roundWSec29</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="roundWSeg1">
+                <name>roundWSeg1</name>
+                <fromElementUID>roundWSec1Elem1</fromElementUID>
+                <toElementUID>roundWSec2Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg2">
+                <name>roundWSeg2</name>
+                <fromElementUID>roundWSec2Elem1</fromElementUID>
+                <toElementUID>roundWSec3Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg3">
+                <name>roundWSeg3</name>
+                <fromElementUID>roundWSec3Elem1</fromElementUID>
+                <toElementUID>roundWSec4Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg4">
+                <name>roundWSeg4</name>
+                <fromElementUID>roundWSec4Elem1</fromElementUID>
+                <toElementUID>roundWSec5Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg5">
+                <name>roundWSeg5</name>
+                <fromElementUID>roundWSec5Elem1</fromElementUID>
+                <toElementUID>roundWSec6Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg6">
+                <name>roundWSeg6</name>
+                <fromElementUID>roundWSec6Elem1</fromElementUID>
+                <toElementUID>roundWSec7Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg7">
+                <name>roundWSeg7</name>
+                <fromElementUID>roundWSec7Elem1</fromElementUID>
+                <toElementUID>roundWSec8Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg8">
+                <name>roundWSeg8</name>
+                <fromElementUID>roundWSec8Elem1</fromElementUID>
+                <toElementUID>roundWSec9Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg9">
+                <name>roundWSeg9</name>
+                <fromElementUID>roundWSec9Elem1</fromElementUID>
+                <toElementUID>roundWSec10Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg10">
+                <name>roundWSeg10</name>
+                <fromElementUID>roundWSec10Elem1</fromElementUID>
+                <toElementUID>roundWSec11Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg11">
+                <name>roundWSeg11</name>
+                <fromElementUID>roundWSec11Elem1</fromElementUID>
+                <toElementUID>roundWSec12Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg12">
+                <name>roundWSeg12</name>
+                <fromElementUID>roundWSec12Elem1</fromElementUID>
+                <toElementUID>roundWSec13Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg13">
+                <name>roundWSeg13</name>
+                <fromElementUID>roundWSec13Elem1</fromElementUID>
+                <toElementUID>roundWSec14Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg14">
+                <name>roundWSeg14</name>
+                <fromElementUID>roundWSec14Elem1</fromElementUID>
+                <toElementUID>roundWSec15Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg15">
+                <name>roundWSeg15</name>
+                <fromElementUID>roundWSec15Elem1</fromElementUID>
+                <toElementUID>roundWSec16Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg16">
+                <name>roundWSeg16</name>
+                <fromElementUID>roundWSec16Elem1</fromElementUID>
+                <toElementUID>roundWSec17Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg17">
+                <name>roundWSeg17</name>
+                <fromElementUID>roundWSec17Elem1</fromElementUID>
+                <toElementUID>roundWSec18Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg18">
+                <name>roundWSeg18</name>
+                <fromElementUID>roundWSec18Elem1</fromElementUID>
+                <toElementUID>roundWSec19Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg19">
+                <name>roundWSeg19</name>
+                <fromElementUID>roundWSec19Elem1</fromElementUID>
+                <toElementUID>roundWSec20Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg20">
+                <name>roundWSeg20</name>
+                <fromElementUID>roundWSec20Elem1</fromElementUID>
+                <toElementUID>roundWSec21Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg21">
+                <name>roundWSeg21</name>
+                <fromElementUID>roundWSec21Elem1</fromElementUID>
+                <toElementUID>roundWSec22Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg22">
+                <name>roundWSeg22</name>
+                <fromElementUID>roundWSec22Elem1</fromElementUID>
+                <toElementUID>roundWSec23Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg23">
+                <name>roundWSeg23</name>
+                <fromElementUID>roundWSec23Elem1</fromElementUID>
+                <toElementUID>roundWSec24Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg24">
+                <name>roundWSeg24</name>
+                <fromElementUID>roundWSec24Elem1</fromElementUID>
+                <toElementUID>roundWSec25Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg25">
+                <name>roundWSeg25</name>
+                <fromElementUID>roundWSec25Elem1</fromElementUID>
+                <toElementUID>roundWSec26Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg26">
+                <name>roundWSeg26</name>
+                <fromElementUID>roundWSec26Elem1</fromElementUID>
+                <toElementUID>roundWSec27Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg27">
+                <name>roundWSeg27</name>
+                <fromElementUID>roundWSec27Elem1</fromElementUID>
+                <toElementUID>roundWSec28Elem1</toElementUID>
+              </segment>
+              <segment uID="roundWSeg28">
+                <name>roundWSeg28</name>
+                <fromElementUID>roundWSec28Elem1</fromElementUID>
+                <toElementUID>roundWSec29Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+          <wing uID="roundW2" symmetry="x-z-plane">
+            <name>roundW2</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="roundW2Transformation">
+              <scaling uID="roundW2TransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="roundW2TransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="roundW2TransformationTransl">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="roundW2Sec1">
+                <name>roundW2Sec1</name>
+                <transformation uID="roundW2Sec1Tr">
+                  <scaling uID="roundW2Sec1TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec1Elem1">
+                    <name>roundW2Sec1Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec1Elem1Tr">
+                      <scaling uID="roundW2Sec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec2">
+                <name>roundW2Sec2</name>
+                <transformation uID="roundW2Sec2Tr">
+                  <scaling uID="roundW2Sec2TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec2TrRot">
+                    <x>15</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec2Elem1">
+                    <name>roundW2Sec2Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec2Elem1Tr">
+                      <scaling uID="roundW2Sec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec3">
+                <name>roundW2Sec3</name>
+                <transformation uID="roundW2Sec3Tr">
+                  <scaling uID="roundW2Sec3TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec3TrRot">
+                    <x>30</x>
+                    <y>8.53774e-07</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec3TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec3Elem1">
+                    <name>roundW2Sec3Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec3Elem1Tr">
+                      <scaling uID="roundW2Sec3Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec3Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec3Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec4">
+                <name>roundW2Sec4</name>
+                <transformation uID="roundW2Sec4Tr">
+                  <scaling uID="roundW2Sec4TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec4TrRot">
+                    <x>45</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec4TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec4Elem1">
+                    <name>roundW2Sec4Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec4Elem1Tr">
+                      <scaling uID="roundW2Sec4Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec4Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec4Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec5">
+                <name>roundW2Sec5</name>
+                <transformation uID="roundW2Sec5Tr">
+                  <scaling uID="roundW2Sec5TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec5TrRot">
+                    <x>60</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec5TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec5Elem1">
+                    <name>roundW2Sec5Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec5Elem1Tr">
+                      <scaling uID="roundW2Sec5Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec5Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec5Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec6">
+                <name>roundW2Sec6</name>
+                <transformation uID="roundW2Sec6Tr">
+                  <scaling uID="roundW2Sec6TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec6TrRot">
+                    <x>75</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec6TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec6Elem1">
+                    <name>roundW2Sec6Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec6Elem1Tr">
+                      <scaling uID="roundW2Sec6Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec6Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec6Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec7">
+                <name>roundW2Sec7</name>
+                <transformation uID="roundW2Sec7Tr">
+                  <scaling uID="roundW2Sec7TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec7TrRot">
+                    <x>90</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec7TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec7Elem1">
+                    <name>roundW2Sec7Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec7Elem1Tr">
+                      <scaling uID="roundW2Sec7Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec7Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec7Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec8">
+                <name>roundW2Sec8</name>
+                <transformation uID="roundW2Sec8Tr">
+                  <scaling uID="roundW2Sec8TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec8TrRot">
+                    <x>105</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec8TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec8Elem1">
+                    <name>roundW2Sec8Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec8Elem1Tr">
+                      <scaling uID="roundW2Sec8Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec8Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec8Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec9">
+                <name>roundW2Sec9</name>
+                <transformation uID="roundW2Sec9Tr">
+                  <scaling uID="roundW2Sec9TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec9TrRot">
+                    <x>120</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec9TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec9Elem1">
+                    <name>roundW2Sec9Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec9Elem1Tr">
+                      <scaling uID="roundW2Sec9Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec9Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec9Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec10">
+                <name>roundW2Sec10</name>
+                <transformation uID="roundW2Sec10Tr">
+                  <scaling uID="roundW2Sec10TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec10TrRot">
+                    <x>135</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec10TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec10Elem1">
+                    <name>roundW2Sec10Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec10Elem1Tr">
+                      <scaling uID="roundW2Sec10Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec10Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec10Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec11">
+                <name>roundW2Sec11</name>
+                <transformation uID="roundW2Sec11Tr">
+                  <scaling uID="roundW2Sec11TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec11TrRot">
+                    <x>150</x>
+                    <y>8.53774e-07</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec11TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec11Elem1">
+                    <name>roundW2Sec11Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec11Elem1Tr">
+                      <scaling uID="roundW2Sec11Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec11Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec11Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec12">
+                <name>roundW2Sec12</name>
+                <transformation uID="roundW2Sec12Tr">
+                  <scaling uID="roundW2Sec12TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec12TrRot">
+                    <x>165</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec12TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec12Elem1">
+                    <name>roundW2Sec12Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec12Elem1Tr">
+                      <scaling uID="roundW2Sec12Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec12Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec12Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW2Sec13">
+                <name>roundW2Sec13</name>
+                <transformation uID="roundW2Sec13Tr">
+                  <scaling uID="roundW2Sec13TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW2Sec13TrRot">
+                    <x>180</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW2Sec13TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW2Sec13Elem1">
+                    <name>roundW2Sec13Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW2Sec13Elem1Tr">
+                      <scaling uID="roundW2Sec13Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW2Sec13Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW2Sec13Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="roundW2Sec1GenPos">
+                <name></name>
+                <length>3.53464</length>
+                <sweepAngle>-8.02815</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>roundW2Sec1</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec2GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>7.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec1</fromSectionUID>
+                <toSectionUID>roundW2Sec2</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec3GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>22.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec2</fromSectionUID>
+                <toSectionUID>roundW2Sec3</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec4GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>37.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec3</fromSectionUID>
+                <toSectionUID>roundW2Sec4</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec5GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>52.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec4</fromSectionUID>
+                <toSectionUID>roundW2Sec5</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec6GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>67.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec5</fromSectionUID>
+                <toSectionUID>roundW2Sec6</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec7GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>82.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec6</fromSectionUID>
+                <toSectionUID>roundW2Sec7</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec8GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>97.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec7</fromSectionUID>
+                <toSectionUID>roundW2Sec8</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec9GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>112.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec8</fromSectionUID>
+                <toSectionUID>roundW2Sec9</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec10GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>127.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec9</fromSectionUID>
+                <toSectionUID>roundW2Sec10</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec11GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>142.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec10</fromSectionUID>
+                <toSectionUID>roundW2Sec11</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec12GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>157.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec11</fromSectionUID>
+                <toSectionUID>roundW2Sec12</toSectionUID>
+              </positioning>
+              <positioning uID="roundW2Sec13GenPos">
+                <name></name>
+                <length>0.913683</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>172.5</dihedralAngle>
+                <fromSectionUID>roundW2Sec12</fromSectionUID>
+                <toSectionUID>roundW2Sec13</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="roundW2Seg1">
+                <name>roundW2Seg1</name>
+                <fromElementUID>roundW2Sec1Elem1</fromElementUID>
+                <toElementUID>roundW2Sec2Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg2">
+                <name>roundW2Seg2</name>
+                <fromElementUID>roundW2Sec2Elem1</fromElementUID>
+                <toElementUID>roundW2Sec3Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg3">
+                <name>roundW2Seg3</name>
+                <fromElementUID>roundW2Sec3Elem1</fromElementUID>
+                <toElementUID>roundW2Sec4Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg4">
+                <name>roundW2Seg4</name>
+                <fromElementUID>roundW2Sec4Elem1</fromElementUID>
+                <toElementUID>roundW2Sec5Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg5">
+                <name>roundW2Seg5</name>
+                <fromElementUID>roundW2Sec5Elem1</fromElementUID>
+                <toElementUID>roundW2Sec6Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg6">
+                <name>roundW2Seg6</name>
+                <fromElementUID>roundW2Sec6Elem1</fromElementUID>
+                <toElementUID>roundW2Sec7Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg7">
+                <name>roundW2Seg7</name>
+                <fromElementUID>roundW2Sec7Elem1</fromElementUID>
+                <toElementUID>roundW2Sec8Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg8">
+                <name>roundW2Seg8</name>
+                <fromElementUID>roundW2Sec8Elem1</fromElementUID>
+                <toElementUID>roundW2Sec9Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg9">
+                <name>roundW2Seg9</name>
+                <fromElementUID>roundW2Sec9Elem1</fromElementUID>
+                <toElementUID>roundW2Sec10Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg10">
+                <name>roundW2Seg10</name>
+                <fromElementUID>roundW2Sec10Elem1</fromElementUID>
+                <toElementUID>roundW2Sec11Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg11">
+                <name>roundW2Seg11</name>
+                <fromElementUID>roundW2Sec11Elem1</fromElementUID>
+                <toElementUID>roundW2Sec12Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW2Seg12">
+                <name>roundW2Seg12</name>
+                <fromElementUID>roundW2Sec12Elem1</fromElementUID>
+                <toElementUID>roundW2Sec13Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+          <wing uID="roundW3" symmetry="x-z-plane">
+            <name>roundW3</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="roundW3Transformation">
+              <scaling uID="roundW3TransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="roundW3TransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="roundW3TransformationTransl">
+                <x>10.4936</x>
+                <y>-2.44929e-16</y>
+                <z>-4.44089e-16</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="roundW3Sec1">
+                <name>roundW3Sec1</name>
+                <transformation uID="roundW3Sec1Tr">
+                  <scaling uID="roundW3Sec1TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW3Sec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW3Sec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW3Sec1Elem1">
+                    <name>roundW3Sec1Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW3Sec1Elem1Tr">
+                      <scaling uID="roundW3Sec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW3Sec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW3Sec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW3Sec2">
+                <name>roundW3Sec2</name>
+                <transformation uID="roundW3Sec2Tr">
+                  <scaling uID="roundW3Sec2TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW3Sec2TrRot">
+                    <x>90</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW3Sec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW3Sec2Elem1">
+                    <name>roundW3Sec2Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW3Sec2Elem1Tr">
+                      <scaling uID="roundW3Sec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW3Sec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW3Sec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="roundW3Sec3">
+                <name>roundW3Sec3</name>
+                <transformation uID="roundW3Sec3Tr">
+                  <scaling uID="roundW3Sec3TrScal">
+                    <x>1</x>
+                    <y>1</y>
+                    <z>1</z>
+                  </scaling>
+                  <rotation uID="roundW3Sec3TrRot">
+                    <x>180</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="roundW3Sec3TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="roundW3Sec3Elem1">
+                    <name>roundW3Sec3Elem1</name>
+                    <airfoilUID>NACA0012</airfoilUID>
+                    <transformation uID="roundW3Sec3Elem1Tr">
+                      <scaling uID="roundW3Sec3Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="roundW3Sec3Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="roundW3Sec3Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="roundW3Sec1GenPos">
+                <name></name>
+                <length>4.03035</length>
+                <sweepAngle>-7.0354</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>roundW3Sec1</toSectionUID>
+              </positioning>
+              <positioning uID="roundW3Sec2GenPos">
+                <name></name>
+                <length>5.65685</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>45</dihedralAngle>
+                <fromSectionUID>roundW3Sec1</fromSectionUID>
+                <toSectionUID>roundW3Sec2</toSectionUID>
+              </positioning>
+              <positioning uID="roundW3Sec3GenPos">
+                <name></name>
+                <length>5.65685</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>135</dihedralAngle>
+                <fromSectionUID>roundW3Sec2</fromSectionUID>
+                <toSectionUID>roundW3Sec3</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="roundW3Seg1">
+                <name>roundW3Seg1</name>
+                <fromElementUID>roundW3Sec1Elem1</fromElementUID>
+                <toElementUID>roundW3Sec2Elem1</toElementUID>
+              </segment>
+              <segment uID="roundW3Seg2">
+                <name>roundW3Seg2</name>
+                <fromElementUID>roundW3Sec2Elem1</fromElementUID>
+                <toElementUID>roundW3Sec3Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+        </wings>
+      </model>
+    </aircraft>
+    <profiles>
+      <wingAirfoils>
+        <wingAirfoil uID="NACA0012">
+          <name>NACA0.00.00.12</name>
+          <description>NACA 4 Series Profile</description>
+          <pointList>
+            <x mapType="vector">1;0.9875;0.975;0.9625;0.95;0.9375;0.925;0.9125;0.9;0.8875;0.875;0.8625;0.85;0.8375;0.825;0.8125;0.8;0.7875;0.775;0.7625;0.75;0.7375;0.725;0.7125;0.7;0.6875;0.675;0.6625;0.65;0.6375;0.625;0.6125;0.6;0.5875;0.575;0.5625;0.55;0.5375;0.525;0.5125;0.5;0.4875;0.475;0.4625;0.45;0.4375;0.425;0.4125;0.4;0.3875;0.375;0.3625;0.35;0.3375;0.325;0.3125;0.3;0.2875;0.275;0.2625;0.25;0.2375;0.225;0.2125;0.2;0.1875;0.175;0.1625;0.15;0.1375;0.125;0.1125;0.1;0.0875;0.075;0.0625;0.05;0.0375;0.025;0.0125;0;0.0125;0.025;0.0375;0.05;0.0625;0.075;0.0875;0.1;0.1125;0.125;0.1375;0.15;0.1625;0.175;0.1875;0.2;0.2125;0.225;0.2375;0.25;0.2625;0.275;0.2875;0.3;0.3125;0.325;0.3375;0.35;0.3625;0.375;0.3875;0.4;0.4125;0.425;0.4375;0.45;0.4625;0.475;0.4875;0.5;0.5125;0.525;0.5375;0.55;0.5625;0.575;0.5875;0.6;0.6125;0.625;0.6375;0.65;0.6625;0.675;0.6875;0.7;0.7125;0.725;0.7375;0.75;0.7625;0.775;0.7875;0.8;0.8125;0.825;0.8375;0.85;0.8625;0.875;0.8875;0.9;0.9125;0.925;0.9375;0.95;0.9625;0.975;0.9875;1</x>
+            <y mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</y>
+            <z mapType="vector">-0.00126;-0.00300042;-0.00471439;-0.00640257;-0.00806559;-0.00970404;-0.0113185;-0.0129093;-0.0144772;-0.0160224;-0.0175453;-0.0190463;-0.0205256;-0.0219836;-0.0234204;-0.0248362;-0.0262312;-0.0276053;-0.0289587;-0.0302913;-0.0316031;-0.0328939;-0.0341636;-0.0354121;-0.0366391;-0.0378442;-0.0390272;-0.0401876;-0.041325;-0.0424389;-0.0435287;-0.0445939;-0.0456337;-0.0466475;-0.0476344;-0.0485936;-0.0495243;-0.0504253;-0.0512958;-0.0521345;-0.0529403;-0.0537118;-0.0544478;-0.0551469;-0.0558074;-0.0564277;-0.0570062;-0.057541;-0.0580301;-0.0584715;-0.0588629;-0.059202;-0.0594862;-0.0597128;-0.059879;-0.0599816;-0.0600173;-0.0599823;-0.0598728;-0.0596844;-0.0594124;-0.0590516;-0.0585963;-0.05804;-0.0573754;-0.0565945;-0.0556877;-0.0546444;-0.0534516;-0.0520943;-0.050554;-0.0488081;-0.0468277;-0.0445751;-0.041999;-0.0390267;-0.0355469;-0.0313739;-0.0261472;-0.018939;0;0.018939;0.0261472;0.0313739;0.0355469;0.0390267;0.041999;0.0445751;0.0468277;0.0488081;0.050554;0.0520943;0.0534516;0.0546444;0.0556877;0.0565945;0.0573754;0.05804;0.0585963;0.0590516;0.0594124;0.0596844;0.0598728;0.0599823;0.0600173;0.0599816;0.059879;0.0597128;0.0594862;0.059202;0.0588629;0.0584715;0.0580301;0.057541;0.0570062;0.0564277;0.0558074;0.0551469;0.0544478;0.0537118;0.0529403;0.0521345;0.0512958;0.0504253;0.0495243;0.0485936;0.0476344;0.0466475;0.0456337;0.0445939;0.0435287;0.0424389;0.041325;0.0401876;0.0390272;0.0378442;0.0366391;0.0354121;0.0341636;0.0328939;0.0316031;0.0302913;0.0289587;0.0276053;0.0262312;0.0248362;0.0234204;0.0219836;0.0205256;0.0190463;0.0175453;0.0160224;0.0144772;0.0129093;0.0113185;0.00970404;0.00806559;0.00640257;0.00471439;0.00300042;0.00126</z>
+          </pointList>
+        </wingAirfoil>
+      </wingAirfoils>
+      <fuselageProfiles>
+        <fuselageProfile uID="fuselageCircleProfileuID">
+          <name>Circle</name>
+          <description>Profile build up from set of Points on Circle where may Dimensions are 1..-1</description>
+          <pointList>
+            <x mapType="vector">0;0;0;0;0</x>
+            <y mapType="vector">0;1;0;-1;0</y>
+            <z mapType="vector">1;0;-1;0;1</z>
+          </pointList>
+        </fuselageProfile>
+      </fuselageProfiles>
+    </profiles>
+  </vehicles>
+  <toolspecific>
+    <cFD>
+      <farField>
+        <type>halfCube</type>
+        <referenceLength>10.0</referenceLength>
+        <multiplier>1.</multiplier>
+      </farField>
+    </cFD>
+  </toolspecific>
+</cpacs>
