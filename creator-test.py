@@ -1,10 +1,6 @@
 from utils import *
 
 
-
-
-
-
 def create_round_wing(wings, newWingUid, numberOfSection, diameter,sym):
   # parameters 
   deltaRotX = 180.0  / (numberOfSection - 1.0) 
@@ -14,11 +10,9 @@ def create_round_wing(wings, newWingUid, numberOfSection, diameter,sym):
   
   # create the wing
   wings.create_wing(newWingUid, numberOfSection , "NACA0012");
-  wing = wings.get_wing(newWingUid);
-  
-  wing.set_symmetry(sym)
+  wing = wings.get_wing(newWingUid);  
+  wing.set_symmetry(tigl3.core.TIGL_X_Z_PLANE)
 
-  
   # set the wing section elements  
   for idx  in range(1,wing.get_section_count() + 1) :
     rotX = (idx - 1) * deltaRotX;
@@ -38,40 +32,43 @@ def create_round_wing(wings, newWingUid, numberOfSection, diameter,sym):
       ce.set_rotation_around_normal(180); 
 
 
-def add_profile():
     
 
 
 
 def main():
-    tigltixi = open_cpacs("Data/simpletest.cpacs.xml")
-    tigl_h = tigltixi[0]
-    tixi_h = tigltixi[1]
-    aircraft = get_aircraft(tigl_h)
-    help(aircraft)
+  tigltixi = open_cpacs("Data/empty.cpacs.xml")
+  tigl_h = tigltixi[0]
+  tixi_h = tigltixi[1]
+  aircraft = get_aircraft(tigl_h)
+  
+  print_aircraft_info(aircraft)  
+  wing0 = aircraft.get_wing(1);
+  sym = wing0.get_symmetry();
+  help(wing0)
+  help(wing0.get_symmetry)
+  print("sym: " + str(sym) )
+  print("sym-type:" + str(type(sym)))
+  
+  
+  wings = aircraft.get_wings(); 
     
-    print_aircraft_info(aircraft)  
-    wing0 = aircraft.get_wing(1);
-    help
-    sym = wing0.get_symmetry(); 
-    help(sym)
-    wings = aircraft.get_wings(); 
-    
-    create_round_wing(wings, "roundW", 29, 10,sym); 
-    create_round_wing(wings, "roundW2", 13, 7,sym);
-    create_round_wing(wings, "roundW3", 3, 8,sym);
+  create_round_wing(wings, "roundW", 29, 10,sym); 
+  create_round_wing(wings, "roundW2", 13, 7,sym);
+  create_round_wing(wings, "roundW3", 3, 8,sym);
 
 
-    wing3 = aircraft.get_wing("roundW3")
-    wing3.set_root_leposition(geometry.CTiglPoint(10,0,-4))
+  wing3 = aircraft.get_wing("roundW3")
+  wing3.set_root_leposition(geometry.CTiglPoint(10,0,-4))
     
-    save(tixi_h, aircraft, "out-test.xml")
+  save(tixi_h, aircraft, "out-test.xml")
     
 
-    tigl_h.close()
-    tixi_h.close()
+  tigl_h.close()
+  tixi_h.close()
 
   
 
 if __name__ == '__main__':
   main(); 
+
